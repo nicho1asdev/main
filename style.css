@@ -1,0 +1,43 @@
+@font-face {
+  font-family: 'Hack';
+  src: url('Fonts/Hack/Hack-Regular.ttf');
+}
+
+html {
+  background-color: black;
+  animation: fadein 1.5s;
+}
+
+@keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+
+.center_container {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+
+  text-align: center;
+  font-size: xx-large;
+  font-family: 'Hack';
+  color: white;
+}
+
+.repo_button {
+  position: relative;
+  top: 100px;
+  padding: 20px;
+  background-color: #212F3C;
+  border-radius: 10px;
+  text-decoration: none;
+  color: white;
+  transition: 0.3s;
+}
+
+.repo_button:hover {
+  background-color: #1B2631;
+}
